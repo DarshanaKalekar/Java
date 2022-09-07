@@ -62,6 +62,13 @@ public class Arraylist {
         while(it.hasNext()){
             System.out.println(it.next());
         }
+        
+         //Convert array to arraylist
+         String[] a = {"Dog", "Elephant", "Monkey"};
+
+        ArrayList a1 = new ArrayList(Arrays.asList(a));
+
+        System.out.println(a1);
 
 
     }
